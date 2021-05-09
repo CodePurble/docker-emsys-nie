@@ -33,6 +33,8 @@ This image contains the following packages:
 * `gcc-arm-none-eabi`
 * `gcc-arm-linux-gnueabihf`
 * `libncurses-dev`
+* `bc`
+* `cpio`
 
 > Note that the packages are all exclusively **build** dependencies. This image
 > does not aim to contain things like U-boot images, kernel archives etc.
