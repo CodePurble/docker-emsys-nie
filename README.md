@@ -15,7 +15,7 @@ You can build the image yourself using:
 ```sh
 $ git clone https://github.com/CodePurble/docker-emsys-nie.git
 $ cd docker-emsys-nie
-$ docker build .
+$ docker build -t "some name" .
 ```
 
 # Why?
@@ -48,8 +48,10 @@ You can do something like:
 
 ```sh
 $ cd <your-workdir>
-$ docker run -it -v $(pwd):/opt/ codepurble/docker-emsys-nie
+$ docker run --rm -it -v $(pwd):/opt/ codepurble/docker-emsys-nie
 ```
+> **NOTE:** In the above example, if you built the image yourself, the image
+> name must be the one you gave
 
 And do your stuff in there.
 
