@@ -25,6 +25,9 @@ You can pull from DockerHub (preferred):
 $ docker pull codepurble/docker-emsys-nie
 ```
 
+> **NOTE:** If the image is updated, just repeat this command to get the latest
+> one. Watch this repository to check for updates.
+
 **OR**
 
 You can build the image yourself using:
