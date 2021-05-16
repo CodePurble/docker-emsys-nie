@@ -44,7 +44,8 @@ This image contains the following packages:
 
 * `build-essential`
 * `u-boot-tools`
-* `gcc-arm-none-eabi`
+* ~~`gcc-arm-none-eabi`~~
+* `gcc-arm-linux-gnueabi`
 * `gcc-arm-linux-gnueabihf`
 * `libncurses-dev`
 * `bc`
