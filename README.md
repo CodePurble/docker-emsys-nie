@@ -91,3 +91,5 @@ And, you know the drill, if there's a problem, open up an issue.
 # Misc
 
 [A good resource for learning Linux](https://linuxjourney.com/)
+[A short Docker video](https://www.youtube.com/watch?v=eGz9DS-aIeY)
+[A more detailed Docker video](https://youtu.be/zJ6WbK9zFpI)
